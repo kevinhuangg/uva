@@ -1,6 +1,8 @@
 import React from 'react';
 import Search from './searchBar.jsx';
 import TopWine from './topWines.jsx';
+import TopWhites from './topWhites.jsx';
+import TopReds from './topReds.jsx';
 import $ from 'jquery';
 import Login from './loginForm.jsx';
 import ProductList from './ProductList.jsx';
@@ -218,8 +220,8 @@ class App extends React.Component {
 
           <div className='topWineWrapper'>
             <TopWine />
-            <TopWine />
-            <TopWine />
+            <TopWhites />
+            <TopReds />
           </div>
 
 

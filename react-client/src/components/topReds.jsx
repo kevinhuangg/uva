@@ -1,6 +1,6 @@
 import React from 'react';
 
-class TopWines extends React.Component {
+class TopReds extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -38,7 +38,7 @@ class TopWines extends React.Component {
     return (
       <div className='topCategory'>
         <h2>
-          Best Value
+          Best Red Wines
         </h2>
         <ul>
           <li><h4>{this.state.topWines[0].name}</h4></li>
@@ -52,4 +52,4 @@ class TopWines extends React.Component {
   }
 }
 
-export default TopWines;
+export default TopReds;
